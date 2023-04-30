@@ -1,0 +1,328 @@
+<html>
+    <head>
+        
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+
+
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <!-- <div class="container">
+            <h1>My First Bootstrap Page</h1>
+            <p>This is some text.</p>
+        </div> -->
+
+
+        <div class="the-header">
+            <!-- <div>
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <i class="fas fa-coffee fa-magnifying-glass fa-beat-fade"></i>
+                <i class="fa-solid fa-cart-shopping"></i>
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <i class="fas fa-sharp fa-solid fa-magnifying-glass fa-2xs"></i>
+                <i class="fa-solid fa-magnifying-glass-plus"></i>
+            </div> -->
+            <div class="container">
+
+                <div>
+                    <input class="inp-search" type="text" placeholder="Search" value="">
+                    <button class="but-search" onclick="open_url()"><img src='search_icon-icons.com_50045.png'></button> 
+                </div>
+                <!-- <span><i class="fas fa-4x fa-bars"></i></span> -->
+
+
+                <!-- <div class="input-group mb-3 inp-search">
+                    <input type="text" class="form-control" placeholder="Search">
+                    <div class="input-group-append">
+                      <button class="btn btn-success" type="submit">Go</button>
+                    </div>
+                 </div> -->
+
+            </div>
+        </div>
+
+        <!-- <div class="row">
+            <div class="col-sm-3 btn btn-primary">.col-sm-3</div>
+            <div class="col-sm-3 btn btn-warning">.col-sm-3</div>
+            <div class="col-sm-3 btn btn-dark">.col-sm-3</div>
+            <div class="col-sm-3 btn btn-primary">.col-sm-3</div>
+          </div>
+        <div class="row">
+            <div class="col-md-3 btn btn-primary">.col-sm-3</div>
+            <div class="col-md-3 btn btn-warning">.col-sm-3</div>
+            <div class="col-md-3 btn btn-dark">.col-sm-3</div>
+            <div class="col-md-3 btn btn-primary">.col-sm-3</div>
+          </div> -->
+
+          <!-- <div class="spinner-border text-info"></div> -->
+
+
+
+
+          
+
+          <section class="slider">
+            <div id="demo" class="carousel slide slider" data-ride="carousel">
+
+              <!-- Indicators -->
+              <ul class="carousel-indicators">
+                <li data-target="#demo" data-slide-to="0" class="active"></li>
+                <li data-target="#demo" data-slide-to="1"></li>
+                <li data-target="#demo" data-slide-to="2"></li>
+              </ul>
+            
+              <!-- The slideshow -->
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="online-pharmacy-1.jpg" alt="Los Angeles">
+                </div>
+                <div class="carousel-item">
+                  <img src="online-pharmacy-3.jpg" alt="Chicago">
+                </div>
+                <div class="carousel-item">
+                  <img src="online-pharmacy-2.jpg">
+                </div>
+              </div>
+            
+              <!-- Left and right controls -->
+              <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+              </a>
+              <a class="carousel-control-next" href="#demo" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+              </a>
+            
+            </div>
+          </section>
+
+
+
+
+<!-- <section>
+<span class="border border-primary">0000000000</span>
+<span class="border border-secondary">1</span>
+<span class="border border-success">2</span>
+<span class="border border-danger">3</span>
+<span class="border border-warning">4</span>
+<span class="border border-info">5</span>
+<span class="border border-light">6</span>
+<span class="border border-dark">7</span>
+<span class="border border-white">8</span>
+
+<span class="rounded-lg">1</span>
+<span class="rounded-lg">2</span>
+<span class="rounded-lg">3</span>
+
+<span class="rounded-circle">1</span>
+<span class="rounded-circle">2</span>
+
+
+<i class="fas fa-cloud"></i>
+<i class="fas fa-coffee"></i>
+<i class="fas fa-car"></i>
+<i class="fas fa-file"></i>
+<i class="fas fa-bars"></i>
+</section> -->
+
+
+
+
+
+
+
+<!-- <div class="card-columns">
+    <div class="card bg-primary">
+      <div class="card-body text-center">
+        <p class="card-text">Some text inside the first card</p>
+      </div>
+    </div>
+    <div class="card bg-warning">
+      <div class="card-body text-center">
+        <p class="card-text">Some text inside the second card</p>
+      </div>
+    </div>
+    <div class="card bg-success">
+      <div class="card-body text-center">
+        <p class="card-text">Some text inside the third card</p>
+      </div>
+    </div>
+    <div class="card bg-danger">
+      <div class="card-body text-center">
+        <p class="card-text">Some text inside the fourth card</p>
+      </div>
+    </div>
+    <div class="card bg-light">
+      <div class="card-body text-center">
+        <p class="card-text">Some text inside the fifth card</p>
+      </div>
+    </div>
+    <div class="card bg-info">
+      <div class="card-body text-center">
+        <p class="card-text">Some text inside the sixth card</p>
+      </div>
+    </div>
+  </div> -->
+
+
+
+  <!-- <div class="card-columns">
+
+    <div class="card bg-light icon-atego">
+      <div class="card-body text-center">
+        <p class="card-text">ادوية الاطفال</p>
+      </div>
+    </div>
+    <div class="card bg-light icon-atego">
+      <div class="card-body text-center">
+        <p class="card-text">ادوية الاسنان</p>
+      </div>
+    </div>
+    <div class="card bg-light icon-atego">
+      <div class="card-body text-center">
+        <p class="card-text">ادوية العظام</p>
+      </div>
+    </div>
+    <div class="card bg-light icon-atego">
+      <div class="card-body text-center">
+        <p class="card-text">ادوية العظام</p>
+      </div>
+    </div>
+    <div class="card bg-light icon-atego">
+      <div class="card-body text-center">
+        <p class="card-text">ادوية الصدر والقلب</p>
+      </div>
+    </div>
+    <div class="card bg-light icon-atego">
+      <div class="card-body text-center">
+        <p class="card-text">ادوية الانف والاذن</p>
+      </div>
+    </div>
+    <div class="card bg-light icon-atego">
+      <div class="card-body text-center">
+        <p class="card-text">ادوية الجلدية</p>
+      </div>
+    </div>
+    <div class="card bg-light icon-atego">
+      <div class="card-body text-center">
+        <p class="card-text">ادوية الباطنة</p>
+      </div>
+    </div>
+    <div class="card bg-light icon-atego">
+      <div class="card-body text-center">
+        <p class="card-text">ادوية المسالك</p>
+      </div>
+    </div>
+    <div class="card bg-light icon-atego">
+      <div class="card-body text-center">
+        <p class="card-text">داوية النساء والتوليد</p>
+      </div>
+    </div>
+    <div class="card bg-light icon-atego">
+      <div class="card-body text-center">
+        <p class="card-text">ادوية المخ والاعصاب</p>
+      </div>
+    </div>
+    <div class="card bg-light icon-atego">
+      <div class="card-body text-center">
+        <p class="card-text">ادوية العيون</p>
+      </div>
+    </div>
+  </div> -->
+
+
+  <!-- <div>
+    <div class="row">
+        <div class="col-sm-3 btn btn-primary">.col-sm-3</div>
+        <div class="col-sm-3 btn btn-warning">.col-sm-3</div>
+        <div class="col-sm-3 btn btn-dark">.col-sm-3</div>
+        <div class="col-sm-3 btn btn-primary">.col-sm-3</div>
+      </div>
+</div> -->
+
+  <!-- <div class="whats-icon">
+    <span>
+        <img src="121.jpg">
+    </span>
+</div> -->
+
+  <br>
+  <div class="content-2">
+    <div>
+      <img src="https://cdn.iconscout.com/icon/free/png-512/free-magnifier-1439746-1214318.png?f=avif&w=256">
+      <p>pharma</p>
+    </div>
+    <div>
+      <p>pharma</p>
+    </div>
+    <div>
+      <p>pharma</p>
+    </div>
+    <!-- <div>
+      <p>pharma</p>
+    </div> -->
+  </div> <br>
+  <div class="content-2">
+    <div>
+      <p>pharma</p>
+    </div>
+    <div>
+      <p>pharma</p>
+    </div>
+    <div>
+      <p>pharma</p>
+    </div>
+    <!-- <div>
+      <p>pharma</p>
+    </div> -->
+  </div> <br>
+  <div class="content-2">
+    <div>
+      <p>pharma</p>
+    </div>
+    <div>
+      <p>pharma</p>
+    </div>
+    <div>
+      <p>pharma</p>
+    </div>
+    <!-- <div>
+      <p>pharma</p>
+    </div> -->
+  </div> <br>
+  <div class="content-2">
+    <div>
+      <p>pharma</p>
+    </div>
+    <div>
+      <p>pharma</p>
+    </div>
+    <div>
+      <p>pharma</p>
+    </div>
+    <!-- <div>
+      <p>pharma</p>
+    </div> -->
+  </div> <br>
+
+
+
+
+
+  <script>
+    var targit = document.querySelector('.inp-search');
+    var link = document.querySelector('.but-search');
+
+
+    function open_url() {
+      // alert('fff')
+      window.location = ('http://pharmacy4u.epizy.com/?post_type=product&s=' + targit.value + '&product_cat=' )
+    };
+
+  </script>
+    </body>
+</html>
